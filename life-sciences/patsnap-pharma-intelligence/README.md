@@ -5,7 +5,7 @@
 ## Quick Links
 - [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
 - [PatSnap Developer Portal](https://open.patsnap.com)
-- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097)
+- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
   
 ## Setup
 
@@ -26,7 +26,7 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=sk-your-key-here
 ```
 
-> **Other clients?** Visit the [Pharma Intelligence page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Pharma Intelligence page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `pharma_intelligence` shows **Connected**.
@@ -410,4 +410,9 @@ openclaw skills install SKILL_NAME
 ```
 
 ## License
+
 MIT
+
+---
+
+Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.

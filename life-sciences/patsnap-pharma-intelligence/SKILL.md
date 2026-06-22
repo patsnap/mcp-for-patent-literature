@@ -1,7 +1,7 @@
 ---
 name: patsnap-pharma-intelligence
 description: PatSnap Pharma Intelligence MCP for AI agents. Search clinical trials, drugs, patents, papers, deals, FDA labels and more via 28 specialized tools.
-homepage: https://open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097
+homepage: https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence
 metadata:
   author: PatSnap
   category: "Life Science"
@@ -37,7 +37,7 @@ This skill requires the **PatSnap Pharma Intelligence MCP server** to be configu
 Get your API key at [open.patsnap.com](https://open.patsnap.com).
 
 For the full list of available tools and input parameters, refer to the official MCP server documentation:
-[open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097](https://open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097)
+[open.patsnap.com/marketplace/mcp-servers/pharma-intelligence](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
 
 ---
 
@@ -63,7 +63,7 @@ This MCP provides 28 tools organized across these domains:
 - **Real-Time News**: semantic news search and full article fetch
 
 For the complete tool list and input parameters, see:
-[open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097](https://open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097)
+[open.patsnap.com/marketplace/mcp-servers/pharma-intelligence](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
 
 ---
 
@@ -108,5 +108,5 @@ After retrieving data, present findings in a structured, professional format:
 ## Resources
 
 - **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
-- **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097)
+- **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)

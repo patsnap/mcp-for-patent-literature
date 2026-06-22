@@ -5,7 +5,7 @@
 ## Quick Links
 - [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
 - [PatSnap Developer Portal](https://open.patsnap.com)
-- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e)
+- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular)
 
 ## Setup
 
@@ -25,7 +25,7 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=sk-your-key-here
 ```
 
-> **Other clients?** Visit the [Chemical Molecular page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Chemical Molecular page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `chemical_molecular` shows **Connected**.
@@ -85,4 +85,9 @@ openclaw skills install SKILL_NAME
 ```
 
 ## License
+
 MIT
+
+---
+
+Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.

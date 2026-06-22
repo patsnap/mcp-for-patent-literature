@@ -5,7 +5,7 @@
 ## Quick Links
 - [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
 - [PatSnap Developer Portal](https://open.patsnap.com)
-- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d)
+- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/biology-modality)
 
 ## Setup
 
@@ -25,7 +25,7 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=your-key-here
 ```
 
-> **Other clients?** Visit the [Biology Modality page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Biology Modality page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/biology-modality) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `biology_modality` shows **Connected**.
@@ -121,4 +121,9 @@ openclaw skills install SKILL_NAME
 ```
 
 ## License
+
 MIT
+
+---
+
+Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.

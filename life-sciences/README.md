@@ -7,9 +7,9 @@ Official Model Context Protocol (MCP) servers for Life Sciences, powered by PatS
 
 | Server | Focus | Tools | Quick Link |
 |---|---|---|---|
-| **Pharma Intelligence** | Drugs, targets, diseases, clinical trials, patents, papers, deals, FDA labels, epidemiology, HEOR, financial reports, news, translational medicine | 28 | [Pharma Intelligence](https://open.patsnap.com/marketplace/mcp-servers/245f3ce8-79e4-4c2a-927c-e155c293f097) Or [Repo](https://github.com/patsnap/mcp/tree/main/life-sciences/patsnap-pharma-intelligence) |
-| **Biology Modality** | Biological sequences, modifications, antibody‑antigen interactions | 5 | [Biology Modality](https://open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d) Or [Repo](https://github.com/patsnap/mcp/tree/main/life-sciences/patsnap-biology-modality) |
-| **Chemical Molecular** | Compound structure search, fragment analysis, ADMET prediction | 3 | [Chemical Molecular](https://open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e) Or [Repo](https://github.com/patsnap/mcp/tree/main/life-sciences/patsnap-chemical-molecular) |
+| **Pharma Intelligence** | Drugs, targets, diseases, clinical trials, patents, papers, deals, FDA labels, epidemiology, HEOR, financial reports, news, translational medicine | 28 | [Pharma Intelligence](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence) Or [Repo](https://github.com/patsnap/mcp/tree/main/life-sciences/patsnap-pharma-intelligence) |
+| **Biology Modality** | Biological sequences, modifications, antibody‑antigen interactions | 5 | [Biology Modality](https://open.patsnap.com/marketplace/mcp-servers/biology-modality) Or [Repo](https://github.com/patsnap/mcp/tree/main/life-sciences/patsnap-biology-modality) |
+| **Chemical Molecular** | Compound structure search, fragment analysis, ADMET prediction | 3 | [Chemical Molecular](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular) Or [Repo](https://github.com/patsnap/mcp/tree/main/life-sciences/patsnap-chemical-molecular) |
 
 ## Setup
 
@@ -77,4 +77,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) — Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.

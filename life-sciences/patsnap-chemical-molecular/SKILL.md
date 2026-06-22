@@ -1,7 +1,7 @@
 ---
 name: patsnap-chemical-molecular
 description: PatSnap Chemical Molecular MCP for AI agents. Search 160M+ chemical structures, synthetic routes, and bioactivity data via specialized chemistry tools.
-homepage: https://open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e
+homepage: https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular
 metadata:
   author: PatSnap
   category: "Life Science"
@@ -37,7 +37,7 @@ This skill requires the **PatSnap Chemical Intelligence MCP server** to be confi
 Get your API key at [open.patsnap.com](https://open.patsnap.com).
 
 For the full list of available tools and input parameters, refer to the official MCP server documentation:
-https://open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e
+https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular
 
 ---
 
@@ -79,5 +79,5 @@ Present chemical data with:
 ## Resources
 
 - **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
-- **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d)
+- **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)
