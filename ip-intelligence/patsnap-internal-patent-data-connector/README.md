@@ -18,9 +18,9 @@ Powered by PatSnap data services and enterprise-connected patent data workflows.
 
 ## Supported Tools
 
-- Search and discovery — semantic, keyword, identifier, or fielded search workflows
-- Retrieval and detail — fetch complete records or supporting details when available
-- Analytics and synthesis — summarize, compare, count, or structure retrieved results
+- Search and discovery: semantic, keyword, identifier, or fielded search workflows
+- Retrieval and detail: fetch complete records or supporting details when available
+- Analytics and synthesis: summarize, compare, count, or structure retrieved results
 
 ## Installation
 
@@ -56,4 +56,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

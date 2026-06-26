@@ -1,6 +1,6 @@
 # PatSnap Pharma Intelligence
 
-**PatSnap Pharma Intelligence** is a Model Context Protocol (MCP) server that equips AI agents with comprehensive pharmaceutical intelligence — covering drugs, targets, diseases, patents, clinical trials, deals, papers, FDA labels, epidemiology, financial reports, news, and translational medicine. Built on PatSnap's global life sciences platform with over 200M+ records, it enables structured search, semantic vector search, and entity retrieval across the full drug development lifecycle.
+**PatSnap Pharma Intelligence** is a Model Context Protocol (MCP) server that equips AI agents with comprehensive pharmaceutical intelligence, covering drugs, targets, diseases, patents, clinical trials, deals, papers, FDA labels, epidemiology, financial reports, news, and translational medicine. Built on PatSnap's global life sciences platform with over 200M+ records, it enables structured search, semantic vector search, and entity retrieval across the full drug development lifecycle.
 
 ## Quick Links
 - [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
@@ -26,14 +26,14 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=sk-your-key-here
 ```
 
-> **Other clients?** Visit the [Pharma Intelligence page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Pharma Intelligence page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence) and select your agent (Cursor, API, etc.) from the bottom-right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `pharma_intelligence` shows **Connected**.
 
 ## Available Tools
 
-> **Note for AI Agents:** This server provides 28 tools organized into three groups: Entity Search & Fetch (structured queries with pagination), Vector Search (semantic natural-language queries), and Special Tools (normalization and web search). Prefer `ls_ner_nor_normalize` to extract structured entities from user input before passing them to search tools. Avoid over-generalizing meta-words in vector search queries — use only biology, chemistry, and pharmaceutical-related terms.
+> **Note for AI Agents:** This server provides 28 tools organized into three groups: Entity Search & Fetch (structured queries with pagination), Vector Search (semantic natural-language queries), and Special Tools (normalization and web search). Prefer `ls_ner_nor_normalize` to extract structured entities from user input before passing them to search tools. Avoid over-generalizing meta-words in vector search queries; use only biology, chemistry, and pharmaceutical-related terms.
 
 ---
 
@@ -47,7 +47,7 @@ These tools use structured field filters to retrieve domain-specific records. Ea
   - `drug` (array of strings, optional): Drug name list to locate specific assets.
   - `target` (array of strings, optional): Target name list for target-centric drug discovery queries.
   - `disease` (array of strings, optional): In-development disease name list for pipeline filtering.
-  - `organization` (array of strings, optional): R&D organization name list for sponsor/originator/developer filtering.
+  - `organization` (array of strings, optional): RD organization name list for sponsor/originator/developer filtering.
   - `mechanism_action` (array of strings, optional): Mechanism of action name list.
   - `drug_type` (array of strings, optional): Drug type filter.
   - `atc_code` (array of strings, optional): ATC code filter for therapy-area or class-based retrieval.
@@ -302,7 +302,7 @@ These tools use structured field filters to retrieve domain-specific records. Ea
 
 ### Vector Search
 
-These tools use semantic similarity to search domain-specific content. All vector search tools share a common interface: `query` (required natural-language string), `top_k` (optional integer, default 20), and `lang` (required, `"CN"` or `"EN"`). Queries must use only biology, chemistry, and pharmaceutical-related terms — avoid meta-words like "literature", "paper", "review", "report", "patent", or "drug development".
+These tools use semantic similarity to search domain-specific content. All vector search tools share a common interface: `query` (required natural-language string), `top_k` (optional integer, default 20), and `lang` (required, `"CN"` or `"EN"`). Queries must use only biology, chemistry, and pharmaceutical-related terms; avoid meta-words like "literature", "paper", "review", "report", "patent", or "drug development".
 
 #### 18. `ls_patent_vector_search`
 - **Purpose**: Search patents with semantic similarity. Useful for complex natural-language queries that cannot be expressed through structured field filters alone.
@@ -358,7 +358,7 @@ These tools use semantic similarity to search domain-specific content. All vecto
 - **Parameters**: `query` (string, required), `top_k` (integer, optional, default 20), `lang` (string, required).
 - **Returns**: JSON object with relevant text chunks from matching financial reports.
 - **API**: `POST /api/ls/financial-report/vector-search`
-- **Usage**: Use for company revenue, R&D spending, or market forecast queries.
+- **Usage**: Use for company revenue, RD spending, or market forecast queries.
 
 ---
 
@@ -396,12 +396,12 @@ or  [PatSnap Dev Portal](https://open.patsnap.com/devportal)
 
 ## Integration with PatSnap Skills
 This server powers the core pharmaceutical intelligence layer for the following PatSnap Skills (Claude Code agents):
-- **biomarker-investigation** — uses disease, target, and clinical trial search to contextualize biomarker findings.
-- **company-profiling** — uses organization, drug, patent, and deal search to build comprehensive company profiles.
-- **disease-investigation** — uses disease, target, drug, clinical trial, and paper search to characterize disease landscapes.
-- **precision-oncology** — uses target, drug, clinical trial, and patent search to evaluate oncology precision therapies.
-- **pharmaceuticals-exploration** — uses drug, patent, clinical trial, and deal search to assess pharmaceutical assets.
-- **target-intelligence** — uses target, drug, disease, and paper search to evaluate therapeutic targets.
+- **biomarker-investigation**: uses disease, target, and clinical trial search to contextualize biomarker findings.
+- **company-profiling**: uses organization, drug, patent, and deal search to build comprehensive company profiles.
+- **disease-investigation**: uses disease, target, drug, clinical trial, and paper search to characterize disease landscapes.
+- **precision-oncology**: uses target, drug, clinical trial, and patent search to evaluate oncology precision therapies.
+- **pharmaceuticals-exploration**: uses drug, patent, clinical trial, and deal search to assess pharmaceutical assets.
+- **target-intelligence**: uses target, drug, disease, and paper search to evaluate therapeutic targets.
 
 Each Skill automatically invokes the appropriate tools from this server when performing its analyses. You can install the Skills from the [PatSnap Skills Library](https://github.com/patsnap/skills/tree/main/life-sciences). 
 Or, if you use openclaw:
@@ -415,4 +415,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

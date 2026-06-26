@@ -1,6 +1,6 @@
 # PatSnap Chemical Molecular
 
-**PatSnap Chemical Molecular** is a Model Context Protocol (MCP) server that equips AI agents with chemical intelligence capabilities — covering compound structure search, fragment analysis, and ADMET property prediction. Built on PatSnap's global life sciences platform, it accelerates molecular evaluation and lead optimization in early-stage drug discovery.
+**PatSnap Chemical Molecular** is a Model Context Protocol (MCP) server that equips AI agents with chemical intelligence capabilities, covering compound structure search, fragment analysis, and ADMET property prediction. Built on PatSnap's global life sciences platform, it accelerates molecular evaluation and lead optimization in early-stage drug discovery.
 
 ## Quick Links
 - [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
@@ -25,7 +25,7 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=sk-your-key-here
 ```
 
-> **Other clients?** Visit the [Chemical Molecular page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Chemical Molecular page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular) and select your agent (Cursor, API, etc.) from the bottom-right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `chemical_molecular` shows **Connected**.
@@ -38,7 +38,7 @@ In Claude Code, type `/mcp` and confirm `chemical_molecular` shows **Connected**
 - **Purpose**: Search compounds by chemical structure, supporting both exact match and similarity search against PatSnap's chemical database.
 - **Parameters**:
   - `smiles` (string, required): Query structure in SMILES format. Example: `"CC(=O)OC1=C(C=CC=C1)C(O)=O"`.
-  - `type` (string, required): Search type — `"EXT"` for exact match, `"SIM"` for similarity search.
+  - `type` (string, required): Search type: `"EXT"` for exact match, `"SIM"` for similarity search.
   - `threshold` (number, optional): Similarity threshold, required when `type` is `"SIM"`. Example: `0.99`.
   - `include_tautomer` (boolean, optional): Whether to include tautomers in results.
   - `include_isotope` (boolean, optional): Whether to include isotope variants.
@@ -76,7 +76,7 @@ or  [PatSnap Dev Portal](https://open.patsnap.com/devportal)
 
 ## Integration with PatSnap Skills
 This server powers the chemical intelligence layer for the following PatSnap Skills (Claude Code agents):
-- **pharmaceuticals-exploration** — uses chemical structure search and ADMET prediction to evaluate drug candidates and explore molecular properties.
+- **pharmaceuticals-exploration**: uses chemical structure search and ADMET prediction to evaluate drug candidates and explore molecular properties.
 
 Each Skill automatically invokes the appropriate tools from this server when performing its analyses. You can install the Skills from the [PatSnap Skills Library](https://github.com/patsnap/skills/tree/main/life-sciences).
 Or, if you use openclaw:
@@ -90,4 +90,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

@@ -4,7 +4,7 @@
 
 ## Product Definition
 
-PatSnap Deep Patent Mining MCP is a Model Context Protocol server that connects AI agents to PatSnap's Deep Patent Mining capabilities. Designed for deeper mining of technical content from patent text and classification data. It supports analysis of technology topics, the three technical elements of problem-solution-effect, strategic emerging industries, materials, application areas, and classification explanations, helping users move from patent retrieval to real technical understanding. It is useful for technology breakdown, domain research, and R&D inspiration.
+PatSnap Deep Patent Mining MCP is a Model Context Protocol server that connects AI agents to PatSnap's Deep Patent Mining capabilities. Designed for deeper mining of technical content from patent text and classification data. It supports analysis of technology topics, the three technical elements of problem-solution-effect, strategic emerging industries, materials, application areas, and classification explanations, helping users move from patent retrieval to real technical understanding. It is useful for technology breakdown, domain research, and RD inspiration.
 
 ## Quick Links
 
@@ -18,9 +18,9 @@ Powered by PatSnap's proprietary patent database, covering 200M+ patents across 
 
 ## Supported Tools
 
-- Search and discovery — semantic, keyword, identifier, or fielded search workflows
-- Retrieval and detail — fetch complete records or supporting details when available
-- Analytics and synthesis — summarize, compare, count, or structure retrieved results
+- Search and discovery: semantic, keyword, identifier, or fielded search workflows
+- Retrieval and detail: fetch complete records or supporting details when available
+- Analytics and synthesis: summarize, compare, count, or structure retrieved results
 
 ## Installation
 
@@ -56,4 +56,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

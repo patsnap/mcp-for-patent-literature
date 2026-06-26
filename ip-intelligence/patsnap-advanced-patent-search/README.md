@@ -18,13 +18,13 @@ Powered by PatSnap's proprietary patent database, covering 200M+ patents across 
 
 ## Supported Tools
 
-- Search by semantic similarity — search_patents_by_semantic
-- Search by patent number       — search_patent_by_pn
-- Search by image               — upload_patent_image
-- Search by assignee            — search_patents_by_original_assignee, search_patents_by_current_assignee
-- Nested / field query          — search_patents_nested, search_patent_field
-- Analytics & count             — search_patent_count
-- Keyword suggestions           — suggest_keywords
+- Search by semantic similarity: search_patents_by_semantic
+- Search by patent number      : search_patent_by_pn
+- Search by image              : upload_patent_image
+- Search by assignee           : search_patents_by_original_assignee, search_patents_by_current_assignee
+- Nested / field query         : search_patents_nested, search_patent_field
+- Analytics & count            : search_patent_count
+- Keyword suggestions          : suggest_keywords
 
 ## Installation
 
@@ -60,4 +60,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

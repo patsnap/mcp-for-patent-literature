@@ -1,6 +1,6 @@
 ---
 name: patsnap-deep-patent-mining
-description: PatSnap Deep Patent Mining MCP for AI agents. Designed for deeper mining of technical content from patent text and classification data. It supports analysis of technology topics, the three technical elements of problem-solution-effect, strategic emerging industries, materials, application areas, and classification explanations, helping users move from patent retrieval to real technical understanding. It is useful for technology breakdown, domain research, and R&D inspiration.
+description: PatSnap Deep Patent Mining MCP for AI agents. Designed for deeper mining of technical content from patent text and classification data. It supports analysis of technology topics, the three technical elements of problem-solution-effect, strategic emerging industries, materials, application areas, and classification explanations, helping users move from patent retrieval to real technical understanding. It is useful for technology breakdown, domain research, and RD inspiration.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-mining
 metadata:
   author: PatSnap

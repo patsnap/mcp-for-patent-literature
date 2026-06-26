@@ -1,6 +1,6 @@
 ---
 name: patsnap-maintain-payment
-description: PatSnap Maintain Payment MCP for AI agents. A global patent search tool for freedom-to-operate assessment. It supports query-based, semantic, and image search, and can be combined with patent family, legal status, and analytics views to help users identify patents that may create FTO barriers more systematically. It is suitable for pre-launch assessment, R&D route selection, and legal support.
+description: PatSnap Maintain Payment MCP for AI agents. A global patent search tool for freedom-to-operate assessment. It supports query-based, semantic, and image search, and can be combined with patent family, legal status, and analytics views to help users identify patents that may create FTO barriers more systematically. It is suitable for pre-launch assessment, RD route selection, and legal support.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-fto
 metadata:
   author: PatSnap

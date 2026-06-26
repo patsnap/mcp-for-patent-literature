@@ -4,7 +4,7 @@ description: PatSnap Internal Patent Data Connector MCP for AI agents. Provides 
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-connector
 metadata:
   author: PatSnap
-  category: "Finance"
+  category: "IP Intelligence"
   version: 1.0.0
   requires:
     mcp_endpoint: "https://connect.patsnap.com/cac75e/mcp?apikey=YOUR_API_KEY"
@@ -17,7 +17,7 @@ Get your API Key at https://open.patsnap.com
 
 This skill connects your AI agent to **PatSnap's Internal Patent Data Connector MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for Finance tasks.
+With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 

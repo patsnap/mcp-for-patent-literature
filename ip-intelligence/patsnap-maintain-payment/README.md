@@ -4,7 +4,7 @@
 
 ## Product Definition
 
-PatSnap Maintain Payment MCP is a Model Context Protocol server that connects AI agents to PatSnap's Maintain Payment capabilities. A global patent search tool for freedom-to-operate assessment. It supports query-based, semantic, and image search, and can be combined with patent family, legal status, and analytics views to help users identify patents that may create FTO barriers more systematically. It is suitable for pre-launch assessment, R&D route selection, and legal support.
+PatSnap Maintain Payment MCP is a Model Context Protocol server that connects AI agents to PatSnap's Maintain Payment capabilities. A global patent search tool for freedom-to-operate assessment. It supports query-based, semantic, and image search, and can be combined with patent family, legal status, and analytics views to help users identify patents that may create FTO barriers more systematically. It is suitable for pre-launch assessment, RD route selection, and legal support.
 
 ## Quick Links
 
@@ -18,9 +18,9 @@ Powered by PatSnap's proprietary patent database, covering 200M+ patents across 
 
 ## Supported Tools
 
-- Search and discovery — semantic, keyword, identifier, or fielded search workflows
-- Retrieval and detail — fetch complete records or supporting details when available
-- Analytics and synthesis — summarize, compare, count, or structure retrieved results
+- Search and discovery: semantic, keyword, identifier, or fielded search workflows
+- Retrieval and detail: fetch complete records or supporting details when available
+- Analytics and synthesis: summarize, compare, count, or structure retrieved results
 
 ## Installation
 
@@ -56,4 +56,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

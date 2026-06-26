@@ -14,13 +14,13 @@ PatSnap Innovation Report Generator MCP is a Model Context Protocol server that 
 
 ## Data Sources and Coverage
 
-Powered by PatSnap's proprietary patent, scientific literature, and innovation data sources, covering patent publications, journals, technical documents, and R&D intelligence workflows.
+Powered by PatSnap's proprietary patent, scientific literature, and innovation data sources, covering patent publications, journals, technical documents, and RD intelligence workflows.
 
 ## Supported Tools
 
-- Search and discovery — semantic, keyword, identifier, or fielded search workflows
-- Retrieval and detail — fetch complete records or supporting details when available
-- Analytics and synthesis — summarize, compare, count, or structure retrieved results
+- Search and discovery: semantic, keyword, identifier, or fielded search workflows
+- Retrieval and detail: fetch complete records or supporting details when available
+- Analytics and synthesis: summarize, compare, count, or structure retrieved results
 
 ## Installation
 
@@ -56,4 +56,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

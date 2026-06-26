@@ -4,7 +4,7 @@ description: PatSnap Scientific Literature & Journals MCP for AI agents. Provide
 homepage: https://open.patsnap.com/marketplace/mcp-servers/literature-search
 metadata:
   author: PatSnap
-  category: "R&D Innovation"
+  category: "RD Innovation"
   version: 1.0.0
   requires:
     mcp_endpoint: "https://connect.patsnap.com/eba075/mcp?apikey=YOUR_API_KEY"
@@ -17,7 +17,7 @@ Get your API Key at https://open.patsnap.com
 
 This skill connects your AI agent to **PatSnap's Scientific Literature & Journals MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for R&D Innovation tasks.
+With this skill, your agent can use PatSnap data and workflow capabilities for RD Innovation tasks.
 
 ## Prerequisites
 

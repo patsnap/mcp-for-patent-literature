@@ -25,14 +25,14 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=your-key-here
 ```
 
-> **Other clients?** Visit the [Biology Modality page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/biology-modality) and select your agent (Cursor, API, etc.) from the bottom‑right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Biology Modality page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/biology-modality) and select your agent (Cursor, API, etc.) from the bottom-right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `biology_modality` shows **Connected**.
 
 ## Available Tools
 
-> **Note for AI Agents:** Sequence and modification searches use an asynchronous job model: submit a job → poll for completion → fetch results. `ls_antibody_antigen_search` returns results synchronously. Each tool below documents its exact parameters, types, and constraints as shown in the official PatSnap Marketplace.
+> **Note for AI Agents:** Sequence and modification searches use an asynchronous job model: submit a job, poll for completion, then fetch results. `ls_antibody_antigen_search` returns results synchronously. Each tool below documents its exact parameters, types, and constraints as shown in the official PatSnap Marketplace.
 
 ### 1. `ls_sequence_search_submit`
 - **Purpose**: Submit a biological sequence search job (protein or nucleotide) against PatSnap's patent and literature sequence database.
@@ -90,7 +90,7 @@ In Claude Code, type `/mcp` and confirm `biology_modality` shows **Connected**.
   - `limit` (integer, optional): Maximum returned result count for the backend task.
 - **Returns**: JSON object with `job_id` (string), `status` (string), `submitted_at` (string).
 - **API**: `POST /api/Ls/modification/job`
-- **Usage**: Use for PTM-specific searches. Follow the same submit → check status → get results workflow. Poll `ls_sequence_search_check_status` and then fetch with `ls_sequence_search_get_results`.
+- **Usage**: Use for PTM-specific searches. Follow the same submit, check status, get results workflow. Poll `ls_sequence_search_check_status` and then fetch with `ls_sequence_search_get_results`.
 
 ### 5. `ls_antibody_antigen_search`
 - **Purpose**: Synchronously search for antibodies associated with a target antigen, with optional facet filters.
@@ -111,8 +111,8 @@ or  [PatSnap Dev Portal](https://open.patsnap.com/devportal)
 
 ## Integration with PatSnap Skills
 This server powers the biological sequence and antibody discovery layer for the following PatSnap Skills (Claude Code agents):
-- **target-intelligence** — uses sequence search to find patents covering biological sequences related to therapeutic targets.
-- **pharmaceuticals-exploration** — uses antibody-antigen search to discover antibody-based therapeutics.
+- **target-intelligence**: uses sequence search to find patents covering biological sequences related to therapeutic targets.
+- **pharmaceuticals-exploration**: uses antibody-antigen search to discover antibody-based therapeutics.
 
 Each Skill automatically invokes the appropriate tools from this server when performing its analyses. You can install the Skills from the [PatSnap Skills Library](https://github.com/patsnap/skills/tree/main/life-sciences). 
 Or, if you use openclaw:
@@ -126,4 +126,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
