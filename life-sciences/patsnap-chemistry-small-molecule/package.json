@@ -1,0 +1,6 @@
+{
+  "name": "@patsnap/chemistry-small-molecule",
+  "version": "1.0.0",
+  "description": "PatSnap Chemistry & Small Molecule MCP server \u2014 Intelligent chemical small molecule analysis platform, covering chemical structure search, structure details analysis, and ADMET property prediction.",
+  "private": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@patsnap/current-awareness",
+  "version": "1.0.0",
+  "description": "PatSnap Current Awareness MCP server \u2014 Tracking system for pharmaceutical industry dynamics and cutting-edge news, covering global medical news search and in-depth news detail mining.",
+  "private": true
+}

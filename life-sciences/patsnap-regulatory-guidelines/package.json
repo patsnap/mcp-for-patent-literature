@@ -1,0 +1,6 @@
+{
+  "name": "@patsnap/regulatory-guidelines",
+  "version": "1.0.0",
+  "description": "PatSnap Regulatory & Guidelines MCP server \u2014 Evidence query tool for regulatory policies and clinical norms, covering semantic evidence retrieval for clinical guidelines and FDA drug labels.",
+  "private": true
+}

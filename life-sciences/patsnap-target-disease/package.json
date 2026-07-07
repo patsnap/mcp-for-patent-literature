@@ -1,0 +1,6 @@
+{
+  "name": "@patsnap/target-disease",
+  "version": "1.0.0",
+  "description": "PatSnap Target & Disease MCP server \u2014 Target and disease profiling tool, covering target characterization, disease profiling, and epidemiology evidence retrieval.",
+  "private": true
+}

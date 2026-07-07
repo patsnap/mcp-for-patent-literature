@@ -1,0 +1,6 @@
+{
+  "name": "@patsnap/drug-asset",
+  "version": "1.0.0",
+  "description": "PatSnap Drug & Asset MCP server \u2014 Drug and asset intelligence retrieval platform, covering drug search, drug details analysis, and development milestone tracking.",
+  "private": true
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@patsnap/scientific-translational-evidence",
+  "version": "1.0.0",
+  "description": "PatSnap Scientific & Translational Evidence MCP server \u2014 Retrieval platform focusing on scientific literature and translational outcomes, covering academic publication queries and translational medicine record tracking.",
+  "private": true
+}

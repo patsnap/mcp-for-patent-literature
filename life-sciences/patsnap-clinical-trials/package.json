@@ -1,0 +1,6 @@
+{
+  "name": "@patsnap/clinical-trials",
+  "version": "1.0.0",
+  "description": "PatSnap Clinical Trials MCP server \u2014 Intelligent clinical trial retrieval system, covering registered trial tracking, trial details and results analysis, and supporting clinical semantic search.",
+  "private": true
+}
