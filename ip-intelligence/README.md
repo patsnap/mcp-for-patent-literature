@@ -55,7 +55,7 @@ Each MCP server has its own URL. See the individual README or Open Platform page
 - [PatSnap](https://www.patsnap.com)
 - [PatSnap Open Platform](https://open.patsnap.com)
 - [Eureka](https://eureka.patsnap.com)
-- [PatSnap MCP Server Source](https://github.com/patsnap/mcp)
+- [PatSnap MCP Server Source](https://github.com/patsnap/mcp-for-patent-literature)
 
 ## License
 
