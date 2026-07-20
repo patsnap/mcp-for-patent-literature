@@ -1,8 +1,31 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
   "maintainers": [
-    "PatsnapIpIntelligence",
-    "PatsnapLifeScience",
-    "PatsnapRDInnovation"
+    "yuanzhian-patsnap"
+  ],
+  "keywords": [
+    "patent-search",
+    "scientific-literature",
+    "life-sciences",
+    "chemistry",
+    "ip-intelligence",
+    "rd-innovation",
+    "innovation-intelligence",
+    "patsnap"
+  ],
+  "quality": {
+    "tool_definitions": "Tools use specific, action-oriented descriptions for patent search and analytics, scientific literature discovery, pharmaceutical intelligence, biological sequence analysis, chemical structure analysis, and R&D workflows. Individual server READMEs document purpose, inputs, outputs, authentication, and connection examples."
+  },
+  "relatedServers": [
+    "goveda/patent-mcp",
+    "GENTEL-lab/OrigeneMCP",
+    "josefdc/Uniprot-MCP",
+    "bio-mcp/bio-mcp-blast",
+    "cyanheads/pubchem-mcp-server"
+  ],
+  "categories": [
+    "research-and-data",
+    "legal-and-compliance",
+    "biology-and-medicine"
   ]
 }
