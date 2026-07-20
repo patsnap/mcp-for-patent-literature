@@ -5,7 +5,7 @@
 ## Quick Links
 - [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
 - [PatSnap Developer Portal](https://open.patsnap.com)
-- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
+- [PatSnap Pharma Intelligence MCP](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
   
 ## Setup
 
@@ -17,7 +17,7 @@ Run the following command in your terminal (requires [Claude Code](https://claud
 
 ```bash
 claude mcp add --transport http pharma_intelligence \
-  "https://connect.patsnap.com/096456/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/096456/logic-mcp?apikey=$PATSNAP_API_KEY"
 ```
 
 Set your API key as an environment variable:
@@ -411,7 +411,7 @@ openclaw skills install SKILL_NAME
 
 ## License
 
-MIT
+Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 

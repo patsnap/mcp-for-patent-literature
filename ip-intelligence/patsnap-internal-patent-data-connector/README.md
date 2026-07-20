@@ -48,11 +48,11 @@ Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 - Official MCP page: [https://open.patsnap.com/marketplace/mcp-servers/patent-connector](https://open.patsnap.com/marketplace/mcp-servers/patent-connector)
 - PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
 - PatSnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
-- Source repository: [https://github.com/patsnap/mcp](https://github.com/patsnap/mcp)
+- Source repository: [https://github.com/patsnap/mcp-for-patent-literature](https://github.com/patsnap/mcp-for-patent-literature)
 
 ## License
 
-MIT
+Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
