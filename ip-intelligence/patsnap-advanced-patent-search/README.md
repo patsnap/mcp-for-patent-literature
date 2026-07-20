@@ -56,7 +56,7 @@ Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 
 ## License
 
-MIT
+Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 

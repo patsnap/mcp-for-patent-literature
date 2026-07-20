@@ -5,7 +5,7 @@
 ## Quick Links
 - [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
 - [PatSnap Developer Portal](https://open.patsnap.com)
-- [PatSnap Biology Modality MCP](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular)
+- [PatSnap Chemical Molecular MCP](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular)
 
 ## Setup
 
@@ -17,7 +17,7 @@ Run the following command in your terminal (requires [Claude Code](https://claud
 
 ```bash
 claude mcp add --transport http chemical_molecular \
-  "https://connect.patsnap.com/713886/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/713886/logic-mcp?apikey=$PATSNAP_API_KEY"
 ```
 
 Set your API key as an environment variable:
@@ -86,7 +86,7 @@ openclaw skills install SKILL_NAME
 
 ## License
 
-MIT
+Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
