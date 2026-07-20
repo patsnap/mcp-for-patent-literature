@@ -33,51 +33,51 @@ Run the following commands in your terminal (requires [Claude Code](https://clau
 ```bash
 # Pharma Intelligence
 claude mcp add --transport http pharma_intelligence \
-  "https://connect.patsnap.com/096456/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/096456/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Biology Modality
 claude mcp add --transport http biology_modality \
-  "https://connect.patsnap.com/06e741/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/06e741/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Chemical Molecular
 claude mcp add --transport http chemical_molecular \
-  "https://connect.patsnap.com/713886/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/713886/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Target & Disease
 claude mcp add --transport http target_disease \
-  "https://connect.patsnap.com/2a2645/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/2a2645/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Scientific & Translational Evidence
 claude mcp add --transport http scientific_translational_evidence \
-  "https://connect.patsnap.com/9c333c/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/9c333c/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Regulatory & Guidelines
 claude mcp add --transport http regulatory_guidelines \
-  "https://connect.patsnap.com/6415c2/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/6415c2/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Drug & Asset
 claude mcp add --transport http drug_asset \
-  "https://connect.patsnap.com/30cd71/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/30cd71/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Current Awareness
 claude mcp add --transport http current_awareness \
-  "https://connect.patsnap.com/401c6d/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/401c6d/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Company & Deal Intelligence
 claude mcp add --transport http company_deal_intelligence \
-  "https://connect.patsnap.com/1f8934/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/1f8934/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Clinical Trials
 claude mcp add --transport http clinical_trials \
-  "https://connect.patsnap.com/051cd3/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/051cd3/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Chemistry & Small Molecule
 claude mcp add --transport http chemistry_small_molecule \
-  "https://connect.patsnap.com/f71d33/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/f71d33/logic-mcp?apikey=$PATSNAP_API_KEY"
 
 # Biologics & Sequence
 claude mcp add --transport http biologics_sequence \
-  "https://connect.patsnap.com/ab57ab/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/ab57ab/logic-mcp?apikey=$PATSNAP_API_KEY"
 ```
 
 Set your API key as an environment variable:
@@ -114,11 +114,11 @@ npx skills add https://github.com/patsnap/skills/tree/main/life-sciences --all
 - [PatSnap MCP Marketplace](https://open.patsnap.com/marketplace/mcp-servers): full list of available MCP servers
 - [PatSnap Life Sciences](https://eureka.patsnap.com/ls-landing): learn more about PatSnap's life sciences platform
 - [PatSnap Skills Library](https://github.com/patsnap/skills): installable domain-specific AI agent skills
-- [PatSnap MCP Server Source](https://github.com/patsnap/mcp): source code for all MCP servers
+- [PatSnap MCP Server repository](https://github.com/patsnap/mcp): catalog, connection guides and agent skills
 
 ## License
 
-MIT
+Apache License 2.0 (see [../LICENSE](../LICENSE))
 
 ---
 Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.

@@ -81,7 +81,7 @@ Each MCP server has its own URL. See the individual README or Open Platform page
 
 ## License
 
-MIT
+Apache License 2.0 (see [LICENSE](./LICENSE))
 
 ---
 

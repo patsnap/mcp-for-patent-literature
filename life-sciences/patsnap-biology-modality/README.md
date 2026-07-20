@@ -17,7 +17,7 @@ Run the following command in your terminal (requires [Claude Code](https://claud
 
 ```bash
 claude mcp add --transport http biology_modality \
-  "https://connect.patsnap.com/06e741/Logic-mcp?apiKey=$PATSNAP_API_KEY"
+  "https://connect.patsnap.com/06e741/logic-mcp?apikey=$PATSNAP_API_KEY"
 ```
 
 Set your API key as an environment variable:
@@ -122,7 +122,7 @@ openclaw skills install SKILL_NAME
 
 ## License
 
-MIT
+Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
