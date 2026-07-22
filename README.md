@@ -1,12 +1,12 @@
-# PatSnap MCP Servers
+# Patsnap MCP Servers
 
-MCP servers for 200M+ patents, pharma records, scientific literature, and RD intelligence, powered by PatSnap's proprietary databases.
+MCP servers for 200M+ patents, pharma records, scientific literature, and RD intelligence, powered by Patsnap's proprietary databases.
 
-## About PatSnap
+## About Patsnap
 
-PatSnap is a global innovation intelligence platform covering 200M+ patents across 170+ jurisdictions (USPTO, EPO, WIPO and more), 216M+ scientific papers, pharma records, clinical trials, and RD data.
+Patsnap is a global innovation intelligence platform covering 200M+ patents across 170+ jurisdictions (USPTO, EPO, WIPO and more), 216M+ scientific papers, pharma records, clinical trials, and RD data.
 
-To explore PatSnap data interactively, try [Eureka](https://eureka.patsnap.com), PatSnap's AI-native RD assistant. To access data programmatically, use the MCP servers or REST API via [PatSnap Open Platform](https://open.patsnap.com).
+To explore Patsnap data interactively, try [Eureka](https://eureka.patsnap.com), Patsnap's AI-native RD assistant. To access data programmatically, use the MCP servers or REST API via [Patsnap Open Platform](https://open.patsnap.com).
 
 ## Available MCP Servers
 
@@ -52,7 +52,7 @@ To explore PatSnap data interactively, try [Eureka](https://eureka.patsnap.com),
 
 ### 1. Get your API key
 
-Register at [PatSnap Open Platform](https://open.patsnap.com) to get your free API key.
+Register at [Patsnap Open Platform](https://open.patsnap.com) to get your free API key.
 
 ### 2. Add to your MCP client
 
@@ -69,14 +69,14 @@ Add the following to your MCP configuration (Claude Desktop, Cursor, Windsurf, e
 }
 ```
 
-Replace `YOUR_API_KEY` with your key from PatSnap Open Platform.
+Replace `YOUR_API_KEY` with your key from Patsnap Open Platform.
 
 Each MCP server has its own URL. See the individual README or Open Platform page for the exact endpoint.
 
 ## Resources
 
-- [PatSnap](https://www.patsnap.com)
-- [PatSnap Open Platform](https://open.patsnap.com)
+- [Patsnap](https://www.patsnap.com)
+- [Patsnap Open Platform](https://open.patsnap.com)
 - [Eureka](https://eureka.patsnap.com)
 
 ## License
@@ -85,4 +85,4 @@ Apache License 2.0 (see [LICENSE](./LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.

@@ -1,6 +1,6 @@
 {
   "name": "@patsnap/biologics-sequence",
   "version": "1.0.0",
-  "description": "PatSnap Biologics & Sequence MCP server \u2014 Intelligent platform for biological sequences and macromolecules, covering antibody-antigen interaction discovery, full-lifecycle sequence search, sequence fetching and alignment, and modification status analysis.",
+  "description": "Patsnap Biologics & Sequence MCP server \u2014 Intelligent platform for biological sequences and macromolecules, covering antibody-antigen interaction discovery, full-lifecycle sequence search, sequence fetching and alignment, and modification status analysis.",
   "private": true
 }

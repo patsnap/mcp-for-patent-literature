@@ -1,16 +1,16 @@
-# PatSnap Pharma Intelligence
+# Patsnap Pharma Intelligence
 
-**PatSnap Pharma Intelligence** is a Model Context Protocol (MCP) server that equips AI agents with comprehensive pharmaceutical intelligence, covering drugs, targets, diseases, patents, clinical trials, deals, papers, FDA labels, epidemiology, financial reports, news, and translational medicine. Built on PatSnap's global life sciences platform with over 200M+ records, it enables structured search, semantic vector search, and entity retrieval across the full drug development lifecycle.
+**Patsnap Pharma Intelligence** is a Model Context Protocol (MCP) server that equips AI agents with comprehensive pharmaceutical intelligence, covering drugs, targets, diseases, patents, clinical trials, deals, papers, FDA labels, epidemiology, financial reports, news, and translational medicine. Built on Patsnap's global life sciences platform with over 200M+ records, it enables structured search, semantic vector search, and entity retrieval across the full drug development lifecycle.
 
 ## Quick Links
-- [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
-- [PatSnap Developer Portal](https://open.patsnap.com)
-- [PatSnap Pharma Intelligence MCP](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
+- [Patsnap Life Science Home](https://eureka.patsnap.com/ls-landing)
+- [Patsnap Developer Portal](https://open.patsnap.com)
+- [Patsnap Pharma Intelligence MCP](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
   
 ## Setup
 
 ### 1. Get an API Key
-Log in to [PatSnap Developer Platform](https://open.patsnap.com), go to **API Keys**, and create a new key (format: `sk-xxxxxxxxxxxx`).
+Log in to [Patsnap Developer Platform](https://open.patsnap.com), go to **API Keys**, and create a new key (format: `sk-xxxxxxxxxxxx`).
 
 ### 2. Connect the MCP Server
 Run the following command in your terminal (requires [Claude Code](https://claude.ai) or any MCP-compatible client):
@@ -26,7 +26,7 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=sk-your-key-here
 ```
 
-> **Other clients?** Visit the [Pharma Intelligence page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence) and select your agent (Cursor, API, etc.) from the bottom-right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Pharma Intelligence page on Patsnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence) and select your agent (Cursor, API, etc.) from the bottom-right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `pharma_intelligence` shows **Connected**.
@@ -378,7 +378,7 @@ These tools use semantic similarity to search domain-specific content. All vecto
   - `query` (string, required): Search query string.
 - **Returns**: JSON object with `results` (array of web search result records).
 - **API**: `POST /api/ls/web/search`
-- **Usage**: Use for accessing information beyond PatSnap's curated databases. Prefer domain-specific search tools (drug, patent, paper, clinical trial) for structured queries.
+- **Usage**: Use for accessing information beyond Patsnap's curated databases. Prefer domain-specific search tools (drug, patent, paper, clinical trial) for structured queries.
 
 #### 28. `ls_ner_nor_normalize`
 - **Purpose**: Identify and normalize entities (targets, drugs, diseases, companies, drug types, mechanisms, action types, patent numbers, clinical trial numbers) from user input text. Runs NER-NOR API and LLM keyword extraction in parallel, then merges and deduplicates results via autocomplete.
@@ -389,13 +389,13 @@ These tools use semantic similarity to search domain-specific content. All vecto
 - **Usage**: Always use this tool first to extract structured entities from the user's natural-language input, then pass the normalized entities to the appropriate domain search tools.
 
 ## 💡 **Need help?**
-Visit: [PatSnap Life Science](https://eureka.patsnap.com/ls-landing) 
-or  [PatSnap Dev Portal](https://open.patsnap.com/devportal)
+Visit: [Patsnap Life Science](https://eureka.patsnap.com/ls-landing)
+or  [Patsnap Dev Portal](https://open.patsnap.com/devportal)
 
 ---
 
-## Integration with PatSnap Skills
-This server powers the core pharmaceutical intelligence layer for the following PatSnap Skills (Claude Code agents):
+## Integration with Patsnap Skills
+This server powers the core pharmaceutical intelligence layer for the following Patsnap Skills (Claude Code agents):
 - **biomarker-investigation**: uses disease, target, and clinical trial search to contextualize biomarker findings.
 - **company-profiling**: uses organization, drug, patent, and deal search to build comprehensive company profiles.
 - **disease-investigation**: uses disease, target, drug, clinical trial, and paper search to characterize disease landscapes.
@@ -403,7 +403,7 @@ This server powers the core pharmaceutical intelligence layer for the following 
 - **pharmaceuticals-exploration**: uses drug, patent, clinical trial, and deal search to assess pharmaceutical assets.
 - **target-intelligence**: uses target, drug, disease, and paper search to evaluate therapeutic targets.
 
-Each Skill automatically invokes the appropriate tools from this server when performing its analyses. You can install the Skills from the [PatSnap Skills Library](https://github.com/patsnap/skills/tree/main/life-sciences). 
+Each Skill automatically invokes the appropriate tools from this server when performing its analyses. You can install the Skills from the [Patsnap Skills Library](https://github.com/patsnap/skills/tree/main/life-sciences).
 Or, if you use openclaw:
 ```bash
 openclaw skills install SKILL_NAME
@@ -415,4 +415,4 @@ Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.

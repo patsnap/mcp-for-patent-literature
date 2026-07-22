@@ -1,20 +1,20 @@
 # Patent Legal Status & Annuity
 
-> by [PatSnap](https://www.patsnap.com)
+> by [Patsnap](https://www.patsnap.com)
 
 ## Product Definition
 
-PatSnap Patent Legal Status & Annuity MCP is a Model Context Protocol server that connects AI agents to PatSnap's Patent Legal Status & Annuity capabilities. Focused on reviewing patent legal status, annuity status, and core legal documents. It supports annuity payment information, legal status, full text, specifications, claims, and citation-related signals to help determine whether a patent remains in force and whether there are title changes or lapse risks. It is suitable for maintenance management, transaction checks, licensing review, and due diligence.
+Patsnap Patent Legal Status & Annuity MCP is a Model Context Protocol server that connects AI agents to Patsnap's Patent Legal Status & Annuity capabilities. Focused on reviewing patent legal status, annuity status, and core legal documents. It supports annuity payment information, legal status, full text, specifications, claims, and citation-related signals to help determine whether a patent remains in force and whether there are title changes or lapse risks. It is suitable for maintenance management, transaction checks, licensing review, and due diligence.
 
 ## Quick Links
 
-- [PatSnap](https://www.patsnap.com)
-- [PatSnap Open Platform](https://open.patsnap.com)
+- [Patsnap](https://www.patsnap.com)
+- [Patsnap Open Platform](https://open.patsnap.com)
 - [Patent Legal Status & Annuity MCP](https://open.patsnap.com/marketplace/mcp-servers/patent-status)
 
 ## Data Sources and Coverage
 
-Powered by PatSnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
+Powered by Patsnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
 
 ## Supported Tools
 
@@ -35,7 +35,7 @@ Powered by PatSnap's proprietary patent database, covering 200M+ patents across 
 }
 ```
 
-Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
+Get your API key at [Patsnap Open Platform](https://open.patsnap.com).
 
 ## Usage Example
 
@@ -46,9 +46,9 @@ Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 ## Related Links
 
 - Official MCP page: [https://open.patsnap.com/marketplace/mcp-servers/patent-status](https://open.patsnap.com/marketplace/mcp-servers/patent-status)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
-- PatSnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
-- Source repository: [https://github.com/patsnap/mcp-for-patent-literature](https://github.com/patsnap/mcp-for-patent-literature)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)
+- Patsnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
+- Source repository: [https://github.com/patsnap/mcp](https://github.com/patsnap/mcp)
 
 ## License
 
@@ -56,4 +56,4 @@ Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.

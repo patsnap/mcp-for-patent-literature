@@ -1,9 +1,9 @@
 ---
 name: patsnap-patent-briefing
-description: PatSnap Patent Briefing MCP for AI agents. A quick-read tool for understanding a patent or patent family. It brings together bibliographic data, legal status, family information, the three core technical elements, drawings, and translations of specifications, abstracts, and claims so that even users without a patent background can grasp the key points quickly. It is useful for internal communication, early screening, patent training, and client briefings.
+description: Patsnap Patent Briefing MCP for AI agents. A quick-read tool for understanding a patent or patent family. It brings together bibliographic data, legal status, family information, the three core technical elements, drawings, and translations of specifications, abstracts, and claims so that even users without a patent background can grasp the key points quickly. It is useful for internal communication, early screening, patent training, and client briefings.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-briefing
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Patent Briefing
 
-This skill connects your AI agent to **PatSnap's Patent Briefing MCP server**.
+This skill connects your AI agent to **Patsnap's Patent Briefing MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Patent Briefing MCP server** to be configured in your environment:
+This skill requires the **Patsnap Patent Briefing MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/patent-briefing](https://open.patsnap.com/marketplace/mcp-servers/patent-briefing)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

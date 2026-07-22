@@ -1,9 +1,9 @@
 ---
 name: patsnap-patent-landscape-analytics
-description: PatSnap Patent Landscape Analytics MCP for AI agents. Converts patent search results into practical patent landscape analysis. It covers filing trends, technology composition, leading applicants, jurisdiction and patent office distribution, technical branches, technology mapping, and technology life cycle to help teams understand the competitive structure and direction of a technology space. It is useful for landscape reviews, competitor analysis, portfolio planning, and early-stage research.
+description: Patsnap Patent Landscape Analytics MCP for AI agents. Converts patent search results into practical patent landscape analysis. It covers filing trends, technology composition, leading applicants, jurisdiction and patent office distribution, technical branches, technology mapping, and technology life cycle to help teams understand the competitive structure and direction of a technology space. It is useful for landscape reviews, competitor analysis, portfolio planning, and early-stage research.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-landscape
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Patent Landscape Analytics
 
-This skill connects your AI agent to **PatSnap's Patent Landscape Analytics MCP server**.
+This skill connects your AI agent to **Patsnap's Patent Landscape Analytics MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Patent Landscape Analytics MCP server** to be configured in your environment:
+This skill requires the **Patsnap Patent Landscape Analytics MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/patent-landscape](https://open.patsnap.com/marketplace/mcp-servers/patent-landscape)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

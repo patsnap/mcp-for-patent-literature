@@ -1,9 +1,9 @@
 ---
 name: patsnap-biologics-sequence
-description: PatSnap Biologics & Sequence MCP for AI agents. Intelligent platform for biological sequences and macromolecules, covering antibody-antigen interaction discovery, full-lifecycle sequence search, sequence fetching and alignment, and modification status analysis.
+description: Patsnap Biologics & Sequence MCP for AI agents. Intelligent platform for biological sequences and macromolecules, covering antibody-antigen interaction discovery, full-lifecycle sequence search, sequence fetching and alignment, and modification status analysis.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/biologics-sequence
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "Life Science"
   version: 1.0.0
   requires:
@@ -12,15 +12,15 @@ metadata:
 ## Setup
 Get your API Key at https://open.patsnap.com
 
-# PatSnap Biologics & Sequence
+# Patsnap Biologics & Sequence
 
-This skill connects your AI agent to **PatSnap's Biologics & Sequence MCP server** — providing professional-grade life sciences intelligence.
+This skill connects your AI agent to **Patsnap's Biologics & Sequence MCP server** — providing professional-grade life sciences intelligence.
 
 Intelligent platform for biological sequences and macromolecules, covering antibody-antigen interaction discovery, full-lifecycle sequence search, sequence fetching and alignment, and modification status analysis.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Biologics & Sequence MCP server** to be configured in your environment:
+This skill requires the **Patsnap Biologics & Sequence MCP server** to be configured in your environment:
 
 ```json
 {
@@ -71,6 +71,6 @@ Present sequence data with alignments, functional annotations, and IP landscape 
 
 ## Resources
 
-- **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
+- **Patsnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
 - **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/biologics-sequence)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)

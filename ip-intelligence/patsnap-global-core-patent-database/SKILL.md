@@ -1,9 +1,9 @@
 ---
 name: patsnap-global-core-patent-database
-description: PatSnap Global Core Patent Database MCP for AI agents. A core patent data tool for high-frequency patent workflows. It supports search, full text and drawings, legal status, licensing, transfer, pledge, and reexamination and invalidation proceeding information, helping teams complete patent checks and fact verification efficiently. It is suitable for daily search, case research, legal support, and operational analysis.
+description: Patsnap Global Core Patent Database MCP for AI agents. A core patent data tool for high-frequency patent workflows. It supports search, full text and drawings, legal status, licensing, transfer, pledge, and reexamination and invalidation proceeding information, helping teams complete patent checks and fact verification efficiently. It is suitable for daily search, case research, legal support, and operational analysis.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/core-patents
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Global Core Patent Database
 
-This skill connects your AI agent to **PatSnap's Global Core Patent Database MCP server**.
+This skill connects your AI agent to **Patsnap's Global Core Patent Database MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Global Core Patent Database MCP server** to be configured in your environment:
+This skill requires the **Patsnap Global Core Patent Database MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/core-patents](https://open.patsnap.com/marketplace/mcp-servers/core-patents)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

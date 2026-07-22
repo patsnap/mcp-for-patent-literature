@@ -1,9 +1,9 @@
 ---
 name: patsnap-chemical-molecular
-description: PatSnap Chemical Molecular MCP for AI agents. Search 160M+ chemical structures, synthetic routes, and bioactivity data via specialized chemistry tools.
+description: Patsnap Chemical Molecular MCP for AI agents. Search 160M+ chemical structures, synthetic routes, and bioactivity data via specialized chemistry tools.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "Life Science"
   version: 1.0.0
   requires:
@@ -13,15 +13,15 @@ metadata:
 ## Setup
 Get your API Key at https://open.patsnap.com
 
-# PatSnap Chemical Molecular
+# Patsnap Chemical Molecular
 
-This skill connects your AI agent to **PatSnap's Chemical Molecular MCP server** — providing professional-grade chemistry search and analysis capabilities.
+This skill connects your AI agent to **Patsnap's Chemical Molecular MCP server** — providing professional-grade chemistry search and analysis capabilities.
 
 With this skill, your agent can navigate the complex world of small molecules, from structure-based patent searching to bioactivity data retrieval and synthetic route analysis.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Chemical Intelligence MCP server** to be configured in your environment:
+This skill requires the **Patsnap Chemical Intelligence MCP server** to be configured in your environment:
 
 ```json
 {
@@ -44,7 +44,7 @@ https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular
 ## Instructions for AI Agents
 
 ### Step 1: Chemical Entity Recognition
-When a user mentions a chemical name, drug, or SMILES string, use the chemical normalization tools to resolve the entity to a standard structure or PatSnap internal ID.
+When a user mentions a chemical name, drug, or SMILES string, use the chemical normalization tools to resolve the entity to a standard structure or Patsnap internal ID.
 
 ### Step 2: Structure-Based Search
 - Use **Substructure Search** to find molecules containing a specific scaffold.
@@ -78,6 +78,6 @@ Present chemical data with:
 
 ## Resources
 
-- **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
+- **Patsnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
 - **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)

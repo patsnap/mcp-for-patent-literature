@@ -1,9 +1,9 @@
 ---
 name: patsnap-scientific-literature-journals
-description: PatSnap Scientific Literature & Journals MCP for AI agents. Provides a unified search entry for scientific literature, journals, authors, institutions, and citation information. It helps users find relevant research quickly, identify key authors and organizations, and understand the influence of a study through citation signals. It is suitable for topic research, literature reviews, scientific intelligence, and study planning.
+description: Patsnap Scientific Literature & Journals MCP for AI agents. Provides a unified search entry for scientific literature, journals, authors, institutions, and citation information. It helps users find relevant research quickly, identify key authors and organizations, and understand the influence of a study through citation signals. It is suitable for topic research, literature reviews, scientific intelligence, and study planning.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/literature-search
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "RD Innovation"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Scientific Literature & Journals
 
-This skill connects your AI agent to **PatSnap's Scientific Literature & Journals MCP server**.
+This skill connects your AI agent to **Patsnap's Scientific Literature & Journals MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for RD Innovation tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for RD Innovation tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Scientific Literature & Journals MCP server** to be configured in your environment:
+This skill requires the **Patsnap Scientific Literature & Journals MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/literature-search](https://open.patsnap.com/marketplace/mcp-servers/literature-search)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

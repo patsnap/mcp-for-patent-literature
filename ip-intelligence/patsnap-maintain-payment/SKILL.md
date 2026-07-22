@@ -1,9 +1,9 @@
 ---
 name: patsnap-maintain-payment
-description: PatSnap Maintain Payment MCP for AI agents. A global patent search tool for freedom-to-operate assessment. It supports query-based, semantic, and image search, and can be combined with patent family, legal status, and analytics views to help users identify patents that may create FTO barriers more systematically. It is suitable for pre-launch assessment, RD route selection, and legal support.
+description: Patsnap Maintain Payment MCP for AI agents. A global patent search tool for freedom-to-operate assessment. It supports query-based, semantic, and image search, and can be combined with patent family, legal status, and analytics views to help users identify patents that may create FTO barriers more systematically. It is suitable for pre-launch assessment, RD route selection, and legal support.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-fto
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Maintain Payment
 
-This skill connects your AI agent to **PatSnap's Maintain Payment MCP server**.
+This skill connects your AI agent to **Patsnap's Maintain Payment MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Maintain Payment MCP server** to be configured in your environment:
+This skill requires the **Patsnap Maintain Payment MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/patent-fto](https://open.patsnap.com/marketplace/mcp-servers/patent-fto)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

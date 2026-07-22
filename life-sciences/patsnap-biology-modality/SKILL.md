@@ -1,9 +1,9 @@
 ---
 name: patsnap-biological-modality
-description: Biological sequence and modality intelligence via PatSnap MCP.
+description: Biological sequence and modality intelligence via Patsnap MCP.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/biology-modality
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "Life Science"
   version: 1.0.0
   requires:
@@ -13,15 +13,15 @@ metadata:
 ## Setup
 Get your API Key at https://open.patsnap.com
 
-# PatSnap Biology Modality
+# Patsnap Biology Modality
 
-This skill connects your AI agent to **PatSnap's Biology Modality MCP server** — providing professional-grade biological sequence and modality analysis capabilities.
+This skill connects your AI agent to **Patsnap's Biology Modality MCP server** — providing professional-grade biological sequence and modality analysis capabilities.
 
 With this skill, your agent can navigate the world of large molecules, from sequence-based patent searching to antibody-antigen interaction discovery and multi-omics data retrieval.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Biology Modality MCP server** to be configured in your environment:
+This skill requires the **Patsnap Biology Modality MCP server** to be configured in your environment:
 
 ```json
 {
@@ -79,6 +79,6 @@ Present biological data with:
 
 ## Resources
 
-- **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
+- **Patsnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
 - **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/biology-modality)
 - **API Docs**: [open.patsnap.com/developers](https://open.patsnap.com/developers)

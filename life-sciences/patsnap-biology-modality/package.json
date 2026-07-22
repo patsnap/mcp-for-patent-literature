@@ -1,6 +1,6 @@
 {
   "name": "@patsnap/biology-modality",
   "version": "1.0.0",
-  "description": "PatSnap Biology Modality MCP server — access biological sequences, modification records, and antibody-antigen interactions across 200M+ patents.",
+  "description": "Patsnap Biology Modality MCP server — access biological sequences, modification records, and antibody-antigen interactions across 200M+ patents.",
   "private": true
 }

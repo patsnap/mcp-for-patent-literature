@@ -1,20 +1,20 @@
 # Patent Landscape Analytics
 
-> by [PatSnap](https://www.patsnap.com)
+> by [Patsnap](https://www.patsnap.com)
 
 ## Product Definition
 
-PatSnap Patent Landscape Analytics MCP is a Model Context Protocol server that connects AI agents to PatSnap's Patent Landscape Analytics capabilities. Converts patent search results into practical patent landscape analysis. It covers filing trends, technology composition, leading applicants, jurisdiction and patent office distribution, technical branches, technology mapping, and technology life cycle to help teams understand the competitive structure and direction of a technology space. It is useful for landscape reviews, competitor analysis, portfolio planning, and early-stage research.
+Patsnap Patent Landscape Analytics MCP is a Model Context Protocol server that connects AI agents to Patsnap's Patent Landscape Analytics capabilities. Converts patent search results into practical patent landscape analysis. It covers filing trends, technology composition, leading applicants, jurisdiction and patent office distribution, technical branches, technology mapping, and technology life cycle to help teams understand the competitive structure and direction of a technology space. It is useful for landscape reviews, competitor analysis, portfolio planning, and early-stage research.
 
 ## Quick Links
 
-- [PatSnap](https://www.patsnap.com)
-- [PatSnap Open Platform](https://open.patsnap.com)
+- [Patsnap](https://www.patsnap.com)
+- [Patsnap Open Platform](https://open.patsnap.com)
 - [Patent Landscape Analytics MCP](https://open.patsnap.com/marketplace/mcp-servers/patent-landscape)
 
 ## Data Sources and Coverage
 
-Powered by PatSnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
+Powered by Patsnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
 
 ## Supported Tools
 
@@ -35,7 +35,7 @@ Powered by PatSnap's proprietary patent database, covering 200M+ patents across 
 }
 ```
 
-Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
+Get your API key at [Patsnap Open Platform](https://open.patsnap.com).
 
 ## Usage Example
 
@@ -46,9 +46,9 @@ Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 ## Related Links
 
 - Official MCP page: [https://open.patsnap.com/marketplace/mcp-servers/patent-landscape](https://open.patsnap.com/marketplace/mcp-servers/patent-landscape)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
-- PatSnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
-- Source repository: [https://github.com/patsnap/mcp-for-patent-literature](https://github.com/patsnap/mcp-for-patent-literature)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)
+- Patsnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
+- Source repository: [https://github.com/patsnap/mcp](https://github.com/patsnap/mcp)
 
 ## License
 
@@ -56,4 +56,4 @@ Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.

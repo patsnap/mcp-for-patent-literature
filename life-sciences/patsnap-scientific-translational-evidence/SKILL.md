@@ -1,9 +1,9 @@
 ---
 name: patsnap-scientific-translational-evidence
-description: PatSnap Scientific & Translational Evidence MCP for AI agents. Retrieval platform focusing on scientific literature and translational outcomes, covering academic publication queries and translational medicine record tracking.
+description: Patsnap Scientific & Translational Evidence MCP for AI agents. Retrieval platform focusing on scientific literature and translational outcomes, covering academic publication queries and translational medicine record tracking.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/scientific-translational-evidence
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "Life Science"
   version: 1.0.0
   requires:
@@ -12,15 +12,15 @@ metadata:
 ## Setup
 Get your API Key at https://open.patsnap.com
 
-# PatSnap Scientific & Translational Evidence
+# Patsnap Scientific & Translational Evidence
 
-This skill connects your AI agent to **PatSnap's Scientific & Translational Evidence MCP server** — providing professional-grade life sciences intelligence.
+This skill connects your AI agent to **Patsnap's Scientific & Translational Evidence MCP server** — providing professional-grade life sciences intelligence.
 
 Retrieval platform focusing on scientific literature and translational outcomes, covering academic publication queries and translational medicine record tracking.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Scientific & Translational Evidence MCP server** to be configured in your environment:
+This skill requires the **Patsnap Scientific & Translational Evidence MCP server** to be configured in your environment:
 
 ```json
 {
@@ -42,7 +42,7 @@ https://open.patsnap.com/marketplace/mcp-servers/scientific-translational-eviden
 ## Instructions for AI Agents
 
 ### Step 1: Normalize Entities First
-Before executing any search or fetch operation, normalize targets, drugs, diseases, companies, and clinical trial IDs to PatSnap internal IDs when possible. This improves retrieval accuracy.
+Before executing any search or fetch operation, normalize targets, drugs, diseases, companies, and clinical trial IDs to Patsnap internal IDs when possible. This improves retrieval accuracy.
 
 ### Step 2: Choose the Right Tool
 Select search tools for discovery and corresponding `_fetch` tools for full records. Use vector search tools for natural-language evidence queries.
@@ -66,6 +66,6 @@ Lead with key findings, cite sources, highlight data gaps, and use tables for co
 
 ## Resources
 
-- **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
+- **Patsnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
 - **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/scientific-translational-evidence)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)

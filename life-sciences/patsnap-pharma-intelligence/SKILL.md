@@ -1,9 +1,9 @@
 ---
 name: patsnap-pharma-intelligence
-description: PatSnap Pharma Intelligence MCP for AI agents. Search clinical trials, drugs, patents, papers, deals, FDA labels and more via 28 specialized tools.
+description: Patsnap Pharma Intelligence MCP for AI agents. Search clinical trials, drugs, patents, papers, deals, FDA labels and more via 28 specialized tools.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "Life Science"
   version: 1.0.0
   requires:
@@ -13,15 +13,15 @@ metadata:
 ## Setup
 Get your API Key at https://open.patsnap.com
 
-# PatSnap Pharma Intelligence
+# Patsnap Pharma Intelligence
 
-This skill connects your AI agent to **PatSnap's Pharma Intelligence MCP server** — the most comprehensive pharmaceutical data layer available for AI agents.
+This skill connects your AI agent to **Patsnap's Pharma Intelligence MCP server** — the most comprehensive pharmaceutical data layer available for AI agents.
 
 With this skill, your agent gains the ability to perform professional-grade pharmaceutical research: from identifying drug targets and searching clinical trials, to analyzing licensing deals and reviewing FDA labels.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Pharma Intelligence MCP server** to be configured in your environment:
+This skill requires the **Patsnap Pharma Intelligence MCP server** to be configured in your environment:
 
 ```json
 {
@@ -47,7 +47,7 @@ For the full list of available tools and input parameters, refer to the official
 
 Before executing any search or fetch operation, **always call `ls_ner_nor_normalize`** on the user's input text. This tool identifies and normalizes targets, drugs, diseases, companies, mechanisms of action (MoA), patent numbers, and clinical trial IDs — returning the internal IDs required by all downstream tools.
 
-> **Do not skip this step.** Raw user text must be resolved to PatSnap internal IDs for accurate retrieval.
+> **Do not skip this step.** Raw user text must be resolved to Patsnap internal IDs for accurate retrieval.
 
 ---
 
@@ -107,6 +107,6 @@ After retrieving data, present findings in a structured, professional format:
 
 ## Resources
 
-- **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
+- **Patsnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
 - **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/pharma-intelligence)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)

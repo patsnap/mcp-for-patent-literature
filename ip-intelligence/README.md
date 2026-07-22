@@ -1,12 +1,12 @@
-# PatSnap IP Intelligence MCP Servers
+# Patsnap IP Intelligence MCP Servers
 
-MCP servers for patent search, legal status, valuation, FTO, internal patent data integration, landscape analytics, mining, and briefing workflows, powered by PatSnap's proprietary IP intelligence databases.
+MCP servers for patent search, legal status, valuation, FTO, internal patent data integration, landscape analytics, mining, and briefing workflows, powered by Patsnap's proprietary IP intelligence databases.
 
-## About PatSnap
+## About Patsnap
 
-PatSnap is a global innovation intelligence platform covering 200M+ patents across 170+ jurisdictions (USPTO, EPO, WIPO and more), 216M+ scientific papers, pharma records, clinical trials, and RD data.
+Patsnap is a global innovation intelligence platform covering 200M+ patents across 170+ jurisdictions (USPTO, EPO, WIPO and more), 216M+ scientific papers, pharma records, clinical trials, and RD data.
 
-To explore PatSnap patent data interactively, try [Eureka](https://eureka.patsnap.com), PatSnap's AI-native RD assistant. To access patent data programmatically, use the MCP servers or REST API via [PatSnap Open Platform](https://open.patsnap.com).
+To explore Patsnap patent data interactively, try [Eureka](https://eureka.patsnap.com), Patsnap's AI-native RD assistant. To access patent data programmatically, use the MCP servers or REST API via [Patsnap Open Platform](https://open.patsnap.com).
 
 ## Available MCP Servers
 
@@ -29,7 +29,7 @@ To explore PatSnap patent data interactively, try [Eureka](https://eureka.patsna
 
 ### 1. Get your API key
 
-Register at [PatSnap Open Platform](https://open.patsnap.com) to get your free API key.
+Register at [Patsnap Open Platform](https://open.patsnap.com) to get your free API key.
 
 ### 2. Add to your MCP client
 
@@ -46,16 +46,16 @@ Add the following to your MCP configuration (Claude Desktop, Cursor, Windsurf, e
 }
 ```
 
-Replace `YOUR_API_KEY` with your key from PatSnap Open Platform.
+Replace `YOUR_API_KEY` with your key from Patsnap Open Platform.
 
 Each MCP server has its own URL. See the individual README or Open Platform page for the exact endpoint.
 
 ## Resources
 
-- [PatSnap](https://www.patsnap.com)
-- [PatSnap Open Platform](https://open.patsnap.com)
+- [Patsnap](https://www.patsnap.com)
+- [Patsnap Open Platform](https://open.patsnap.com)
 - [Eureka](https://eureka.patsnap.com)
-- [PatSnap MCP Server Source](https://github.com/patsnap/mcp-for-patent-literature)
+- [Patsnap MCP Server Source](https://github.com/patsnap/mcp)
 
 ## License
 
@@ -63,4 +63,4 @@ Apache License 2.0 (see [../LICENSE](../LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.

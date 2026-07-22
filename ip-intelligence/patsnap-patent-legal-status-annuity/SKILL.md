@@ -1,9 +1,9 @@
 ---
 name: patsnap-patent-legal-status-annuity
-description: PatSnap Patent Legal Status & Annuity MCP for AI agents. Focused on reviewing patent legal status, annuity status, and core legal documents. It supports annuity payment information, legal status, full text, specifications, claims, and citation-related signals to help determine whether a patent remains in force and whether there are title changes or lapse risks. It is suitable for maintenance management, transaction checks, licensing review, and due diligence.
+description: Patsnap Patent Legal Status & Annuity MCP for AI agents. Focused on reviewing patent legal status, annuity status, and core legal documents. It supports annuity payment information, legal status, full text, specifications, claims, and citation-related signals to help determine whether a patent remains in force and whether there are title changes or lapse risks. It is suitable for maintenance management, transaction checks, licensing review, and due diligence.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-status
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Patent Legal Status & Annuity
 
-This skill connects your AI agent to **PatSnap's Patent Legal Status & Annuity MCP server**.
+This skill connects your AI agent to **Patsnap's Patent Legal Status & Annuity MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Patent Legal Status & Annuity MCP server** to be configured in your environment:
+This skill requires the **Patsnap Patent Legal Status & Annuity MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/patent-status](https://open.patsnap.com/marketplace/mcp-servers/patent-status)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)
