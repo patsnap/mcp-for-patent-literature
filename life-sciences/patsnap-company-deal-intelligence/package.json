@@ -1,6 +1,6 @@
 {
   "name": "@patsnap/company-deal-intelligence",
   "version": "1.0.0",
-  "description": "PatSnap Company & Deal Intelligence MCP server \u2014 Intangible asset and commercial intelligence archive tool for pharmaceutical enterprises, covering organization profiles, R&D pipelines, deal records, and financial report evidence queries.",
+  "description": "Patsnap Company & Deal Intelligence MCP server \u2014 Intangible asset and commercial intelligence archive tool for pharmaceutical enterprises, covering organization profiles, R&D pipelines, deal records, and financial report evidence queries.",
   "private": true
 }

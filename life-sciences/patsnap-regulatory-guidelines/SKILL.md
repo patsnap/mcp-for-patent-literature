@@ -1,9 +1,9 @@
 ---
 name: patsnap-regulatory-guidelines
-description: PatSnap Regulatory & Guidelines MCP for AI agents. Evidence query tool for regulatory policies and clinical norms, covering semantic evidence retrieval for clinical guidelines and FDA drug labels.
+description: Patsnap Regulatory & Guidelines MCP for AI agents. Evidence query tool for regulatory policies and clinical norms, covering semantic evidence retrieval for clinical guidelines and FDA drug labels.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/regulatory-guidelines
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "Life Science"
   version: 1.0.0
   requires:
@@ -12,15 +12,15 @@ metadata:
 ## Setup
 Get your API Key at https://open.patsnap.com
 
-# PatSnap Regulatory & Guidelines
+# Patsnap Regulatory & Guidelines
 
-This skill connects your AI agent to **PatSnap's Regulatory & Guidelines MCP server** — providing professional-grade life sciences intelligence.
+This skill connects your AI agent to **Patsnap's Regulatory & Guidelines MCP server** — providing professional-grade life sciences intelligence.
 
 Evidence query tool for regulatory policies and clinical norms, covering semantic evidence retrieval for clinical guidelines and FDA drug labels.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Regulatory & Guidelines MCP server** to be configured in your environment:
+This skill requires the **Patsnap Regulatory & Guidelines MCP server** to be configured in your environment:
 
 ```json
 {
@@ -42,7 +42,7 @@ https://open.patsnap.com/marketplace/mcp-servers/regulatory-guidelines
 ## Instructions for AI Agents
 
 ### Step 1: Normalize Entities First
-Before executing any search or fetch operation, normalize targets, drugs, diseases, companies, and clinical trial IDs to PatSnap internal IDs when possible. This improves retrieval accuracy.
+Before executing any search or fetch operation, normalize targets, drugs, diseases, companies, and clinical trial IDs to Patsnap internal IDs when possible. This improves retrieval accuracy.
 
 ### Step 2: Choose the Right Tool
 Select search tools for discovery and corresponding `_fetch` tools for full records. Use vector search tools for natural-language evidence queries.
@@ -65,6 +65,6 @@ Lead with key findings, cite sources, highlight data gaps, and use tables for co
 
 ## Resources
 
-- **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
+- **Patsnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
 - **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/regulatory-guidelines)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)

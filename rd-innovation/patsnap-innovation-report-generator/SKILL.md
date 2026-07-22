@@ -1,9 +1,9 @@
 ---
 name: patsnap-innovation-report-generator
-description: PatSnap Innovation Report Generator MCP for AI agents. Turns analytical results into deliverable reports and task-based outputs. It supports enterprise reports, patent value reports, and novelty-check reports for technical ideas, with download and similar-patent comparison support to help teams produce standardized materials more efficiently. It is suitable for client delivery, internal reporting, and pre-sales support.
+description: Patsnap Innovation Report Generator MCP for AI agents. Turns analytical results into deliverable reports and task-based outputs. It supports enterprise reports, patent value reports, and novelty-check reports for technical ideas, with download and similar-patent comparison support to help teams produce standardized materials more efficiently. It is suitable for client delivery, internal reporting, and pre-sales support.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/report-gen
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "RD Innovation"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Innovation Report Generator
 
-This skill connects your AI agent to **PatSnap's Innovation Report Generator MCP server**.
+This skill connects your AI agent to **Patsnap's Innovation Report Generator MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for RD Innovation tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for RD Innovation tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Innovation Report Generator MCP server** to be configured in your environment:
+This skill requires the **Patsnap Innovation Report Generator MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/report-gen](https://open.patsnap.com/marketplace/mcp-servers/report-gen)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

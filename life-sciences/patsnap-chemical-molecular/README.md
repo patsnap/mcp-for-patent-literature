@@ -1,16 +1,16 @@
-# PatSnap Chemical Molecular
+# Patsnap Chemical Molecular
 
-**PatSnap Chemical Molecular** is a Model Context Protocol (MCP) server that equips AI agents with chemical intelligence capabilities, covering compound structure search, fragment analysis, and ADMET property prediction. Built on PatSnap's global life sciences platform, it accelerates molecular evaluation and lead optimization in early-stage drug discovery.
+**Patsnap Chemical Molecular** is a Model Context Protocol (MCP) server that equips AI agents with chemical intelligence capabilities, covering compound structure search, fragment analysis, and ADMET property prediction. Built on Patsnap's global life sciences platform, it accelerates molecular evaluation and lead optimization in early-stage drug discovery.
 
 ## Quick Links
-- [PatSnap Life Science Home](https://eureka.patsnap.com/ls-landing)
-- [PatSnap Developer Portal](https://open.patsnap.com)
-- [PatSnap Chemical Molecular MCP](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular)
+- [Patsnap Life Science Home](https://eureka.patsnap.com/ls-landing)
+- [Patsnap Developer Portal](https://open.patsnap.com)
+- [Patsnap Chemical Molecular MCP](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular)
 
 ## Setup
 
 ### 1. Get an API Key
-Log in to [PatSnap Developer Platform](https://open.patsnap.com), go to **API Keys**, and create a new key (format: `sk-xxxxxxxxxxxx`).
+Log in to [Patsnap Developer Platform](https://open.patsnap.com), go to **API Keys**, and create a new key (format: `sk-xxxxxxxxxxxx`).
 
 ### 2. Connect the MCP Server
 Run the following command in your terminal (requires [Claude Code](https://claude.ai) or any MCP-compatible client):
@@ -25,17 +25,17 @@ Set your API key as an environment variable:
 export PATSNAP_API_KEY=sk-your-key-here
 ```
 
-> **Other clients?** Visit the [Chemical Molecular page on PatSnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular) and select your agent (Cursor, API, etc.) from the bottom-right corner to get the appropriate configuration snippet.
+> **Other clients?** Visit the [Chemical Molecular page on Patsnap Marketplace](https://open.patsnap.com/marketplace/mcp-servers/chemical-molecular) and select your agent (Cursor, API, etc.) from the bottom-right corner to get the appropriate configuration snippet.
 
 ### 3. Verify
 In Claude Code, type `/mcp` and confirm `chemical_molecular` shows **Connected**.
 
 ## Available Tools
 
-> **Note for AI Agents:** Each tool below documents its exact parameters, types, and constraints as shown in the official PatSnap Marketplace. Pay close attention to required vs. optional parameters.
+> **Note for AI Agents:** Each tool below documents its exact parameters, types, and constraints as shown in the official Patsnap Marketplace. Pay close attention to required vs. optional parameters.
 
 ### 1. `ls_chemical_search`
-- **Purpose**: Search compounds by chemical structure, supporting both exact match and similarity search against PatSnap's chemical database.
+- **Purpose**: Search compounds by chemical structure, supporting both exact match and similarity search against Patsnap's chemical database.
 - **Parameters**:
   - `smiles` (string, required): Query structure in SMILES format. Example: `"CC(=O)OC1=C(C=CC=C1)C(O)=O"`.
   - `type` (string, required): Search type: `"EXT"` for exact match, `"SIM"` for similarity search.
@@ -69,16 +69,16 @@ In Claude Code, type `/mcp` and confirm `chemical_molecular` shows **Connected**
 - **Usage**: Use for early-stage drug-likeness evaluation, filtering virtual screening hits, or prioritizing candidates before synthesis.
 
 ## 💡 **Need help?**
-Visit: [PatSnap Life Science](https://eureka.patsnap.com/ls-landing) 
-or  [PatSnap Dev Portal](https://open.patsnap.com/devportal)
+Visit: [Patsnap Life Science](https://eureka.patsnap.com/ls-landing)
+or  [Patsnap Dev Portal](https://open.patsnap.com/devportal)
 
 ---
 
-## Integration with PatSnap Skills
-This server powers the chemical intelligence layer for the following PatSnap Skills (Claude Code agents):
+## Integration with Patsnap Skills
+This server powers the chemical intelligence layer for the following Patsnap Skills (Claude Code agents):
 - **pharmaceuticals-exploration**: uses chemical structure search and ADMET prediction to evaluate drug candidates and explore molecular properties.
 
-Each Skill automatically invokes the appropriate tools from this server when performing its analyses. You can install the Skills from the [PatSnap Skills Library](https://github.com/patsnap/skills/tree/main/life-sciences).
+Each Skill automatically invokes the appropriate tools from this server when performing its analyses. You can install the Skills from the [Patsnap Skills Library](https://github.com/patsnap/skills/tree/main/life-sciences).
 Or, if you use openclaw:
 ```bash
 openclaw skills install SKILL_NAME
@@ -90,4 +90,4 @@ Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.

@@ -1,9 +1,9 @@
 ---
 name: patsnap-chemistry-small-molecule
-description: PatSnap Chemistry & Small Molecule MCP for AI agents. Intelligent chemical small molecule analysis platform, covering chemical structure search, structure details analysis, and ADMET property prediction.
+description: Patsnap Chemistry & Small Molecule MCP for AI agents. Intelligent chemical small molecule analysis platform, covering chemical structure search, structure details analysis, and ADMET property prediction.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/chemistry-small-molecule
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "Life Science"
   version: 1.0.0
   requires:
@@ -12,15 +12,15 @@ metadata:
 ## Setup
 Get your API Key at https://open.patsnap.com
 
-# PatSnap Chemistry & Small Molecule
+# Patsnap Chemistry & Small Molecule
 
-This skill connects your AI agent to **PatSnap's Chemistry & Small Molecule MCP server** — providing professional-grade life sciences intelligence.
+This skill connects your AI agent to **Patsnap's Chemistry & Small Molecule MCP server** — providing professional-grade life sciences intelligence.
 
 Intelligent chemical small molecule analysis platform, covering chemical structure search, structure details analysis, and ADMET property prediction.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Chemistry & Small Molecule MCP server** to be configured in your environment:
+This skill requires the **Patsnap Chemistry & Small Molecule MCP server** to be configured in your environment:
 
 ```json
 {
@@ -66,6 +66,6 @@ Present SMILES/InChI, scaffold descriptions, and tabular comparisons of analogs.
 
 ## Resources
 
-- **PatSnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
+- **Patsnap Life Sciences**: [eureka.patsnap.com/ls-landing](https://eureka.patsnap.com/ls-landing)
 - **MCP Server**: [open.patsnap.com/marketplace/mcp-servers](https://open.patsnap.com/marketplace/mcp-servers/chemistry-small-molecule)
 - **API Docs**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)

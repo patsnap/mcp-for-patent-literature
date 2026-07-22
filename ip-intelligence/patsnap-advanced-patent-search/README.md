@@ -1,20 +1,20 @@
 # Advanced Patent Search
 
-> by [PatSnap](https://www.patsnap.com)
+> by [Patsnap](https://www.patsnap.com)
 
 ## Product Definition
 
-PatSnap Advanced Patent Search MCP is a Model Context Protocol server that connects AI agents to PatSnap's Advanced Patent Search capabilities. Provides flexible and in-depth advanced patent search capabilities. It supports semantic, similarity, image, patent-number, nested-query, analytics, and keyword-assist workflows, enabling experienced users to build and refine complex search strategies efficiently. It is suitable for search specialists, analysts, and demanding research projects.
+Patsnap Advanced Patent Search MCP is a Model Context Protocol server that connects AI agents to Patsnap's Advanced Patent Search capabilities. Provides flexible and in-depth advanced patent search capabilities. It supports semantic, similarity, image, patent-number, nested-query, analytics, and keyword-assist workflows, enabling experienced users to build and refine complex search strategies efficiently. It is suitable for search specialists, analysts, and demanding research projects.
 
 ## Quick Links
 
-- [PatSnap](https://www.patsnap.com)
-- [PatSnap Open Platform](https://open.patsnap.com)
+- [Patsnap](https://www.patsnap.com)
+- [Patsnap Open Platform](https://open.patsnap.com)
 - [Advanced Patent Search MCP](https://open.patsnap.com/marketplace/mcp-servers/patent-search)
 
 ## Data Sources and Coverage
 
-Powered by PatSnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
+Powered by Patsnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
 
 ## Supported Tools
 
@@ -39,7 +39,7 @@ Powered by PatSnap's proprietary patent database, covering 200M+ patents across 
 }
 ```
 
-Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
+Get your API key at [Patsnap Open Platform](https://open.patsnap.com).
 
 ## Usage Example
 
@@ -50,9 +50,9 @@ Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 ## Related Links
 
 - Official MCP page: [https://open.patsnap.com/marketplace/mcp-servers/patent-search](https://open.patsnap.com/marketplace/mcp-servers/patent-search)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
-- PatSnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
-- Source repository: [https://github.com/patsnap/mcp-for-patent-literature](https://github.com/patsnap/mcp-for-patent-literature)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)
+- Patsnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
+- Source repository: [https://github.com/patsnap/mcp](https://github.com/patsnap/mcp)
 
 ## License
 
@@ -60,4 +60,4 @@ Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.

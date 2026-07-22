@@ -1,9 +1,9 @@
 ---
 name: patsnap-patent-visual-analytics
-description: PatSnap Patent Visual Analytics MCP for AI agents. Transforms patent data into more intuitive visual analysis. It supports chart-based views across trends, patent types, value, litigation, citations, and technical-effect phrase distribution so users can spot concentration, hotspots, and outliers faster. It is useful for management reporting, client presentations, and thematic analysis.
+description: Patsnap Patent Visual Analytics MCP for AI agents. Transforms patent data into more intuitive visual analysis. It supports chart-based views across trends, patent types, value, litigation, citations, and technical-effect phrase distribution so users can spot concentration, hotspots, and outliers faster. It is useful for management reporting, client presentations, and thematic analysis.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-visual
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Patent Visual Analytics
 
-This skill connects your AI agent to **PatSnap's Patent Visual Analytics MCP server**.
+This skill connects your AI agent to **Patsnap's Patent Visual Analytics MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Patent Visual Analytics MCP server** to be configured in your environment:
+This skill requires the **Patsnap Patent Visual Analytics MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/patent-visual](https://open.patsnap.com/marketplace/mcp-servers/patent-visual)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

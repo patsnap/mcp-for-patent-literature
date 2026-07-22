@@ -1,9 +1,9 @@
 ---
 name: patsnap-patent-monetization-valuation
-description: PatSnap Patent Monetization & Valuation MCP for AI agents. A tool designed for patent transactions, licensing, and commercialization-oriented valuation. It combines patent value, legal status, licensing, transfer, reexamination and invalidation proceedings, and full-text information to help users judge whether a patent is better suited for sale, licensing, or continued holding. It is useful for patent operations, asset disposal, and commercialization assessment.
+description: Patsnap Patent Monetization & Valuation MCP for AI agents. A tool designed for patent transactions, licensing, and commercialization-oriented valuation. It combines patent value, legal status, licensing, transfer, reexamination and invalidation proceedings, and full-text information to help users judge whether a patent is better suited for sale, licensing, or continued holding. It is useful for patent operations, asset disposal, and commercialization assessment.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-monetize
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Patent Monetization & Valuation
 
-This skill connects your AI agent to **PatSnap's Patent Monetization & Valuation MCP server**.
+This skill connects your AI agent to **Patsnap's Patent Monetization & Valuation MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Patent Monetization & Valuation MCP server** to be configured in your environment:
+This skill requires the **Patsnap Patent Monetization & Valuation MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/patent-monetize](https://open.patsnap.com/marketplace/mcp-servers/patent-monetize)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

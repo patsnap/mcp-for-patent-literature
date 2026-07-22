@@ -1,9 +1,9 @@
 ---
 name: patsnap-internal-patent-data-connector
-description: PatSnap Internal Patent Data Connector MCP for AI agents. Provides a unified connection layer for bringing patent data into internal systems, applications, and automated workflows. It exposes commonly used capabilities such as search, legal status, transfer, licensing, pledge, classification, and bibliographic data so patent data can be embedded into existing business processes more easily. It is suitable for system integration, data platforms, and workflow automation.
+description: Patsnap Internal Patent Data Connector MCP for AI agents. Provides a unified connection layer for bringing patent data into internal systems, applications, and automated workflows. It exposes commonly used capabilities such as search, legal status, transfer, licensing, pledge, classification, and bibliographic data so patent data can be embedded into existing business processes more easily. It is suitable for system integration, data platforms, and workflow automation.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/patent-connector
 metadata:
-  author: PatSnap
+  author: Patsnap
   category: "IP Intelligence"
   version: 1.0.0
   requires:
@@ -15,13 +15,13 @@ Get your API Key at https://open.patsnap.com
 
 # Internal Patent Data Connector
 
-This skill connects your AI agent to **PatSnap's Internal Patent Data Connector MCP server**.
+This skill connects your AI agent to **Patsnap's Internal Patent Data Connector MCP server**.
 
-With this skill, your agent can use PatSnap data and workflow capabilities for IP Intelligence tasks.
+With this skill, your agent can use Patsnap data and workflow capabilities for IP Intelligence tasks.
 
 ## Prerequisites
 
-This skill requires the **PatSnap Internal Patent Data Connector MCP server** to be configured in your environment:
+This skill requires the **Patsnap Internal Patent Data Connector MCP server** to be configured in your environment:
 
 ```json
 {
@@ -63,5 +63,5 @@ Present results in a structured format and cite returned patent numbers, record 
 ## Resources
 
 - **MCP Server**: [https://open.patsnap.com/marketplace/mcp-servers/patent-connector](https://open.patsnap.com/marketplace/mcp-servers/patent-connector)
-- **PatSnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
+- **Patsnap Open Platform**: [open.patsnap.com](https://open.patsnap.com)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)

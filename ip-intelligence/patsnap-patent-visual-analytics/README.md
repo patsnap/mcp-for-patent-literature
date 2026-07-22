@@ -1,20 +1,20 @@
 # Patent Visual Analytics
 
-> by [PatSnap](https://www.patsnap.com)
+> by [Patsnap](https://www.patsnap.com)
 
 ## Product Definition
 
-PatSnap Patent Visual Analytics MCP is a Model Context Protocol server that connects AI agents to PatSnap's Patent Visual Analytics capabilities. Transforms patent data into more intuitive visual analysis. It supports chart-based views across trends, patent types, value, litigation, citations, and technical-effect phrase distribution so users can spot concentration, hotspots, and outliers faster. It is useful for management reporting, client presentations, and thematic analysis.
+Patsnap Patent Visual Analytics MCP is a Model Context Protocol server that connects AI agents to Patsnap's Patent Visual Analytics capabilities. Transforms patent data into more intuitive visual analysis. It supports chart-based views across trends, patent types, value, litigation, citations, and technical-effect phrase distribution so users can spot concentration, hotspots, and outliers faster. It is useful for management reporting, client presentations, and thematic analysis.
 
 ## Quick Links
 
-- [PatSnap](https://www.patsnap.com)
-- [PatSnap Open Platform](https://open.patsnap.com)
+- [Patsnap](https://www.patsnap.com)
+- [Patsnap Open Platform](https://open.patsnap.com)
 - [Patent Visual Analytics MCP](https://open.patsnap.com/marketplace/mcp-servers/patent-visual)
 
 ## Data Sources and Coverage
 
-Powered by PatSnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
+Powered by Patsnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
 
 ## Supported Tools
 
@@ -35,7 +35,7 @@ Powered by PatSnap's proprietary patent database, covering 200M+ patents across 
 }
 ```
 
-Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
+Get your API key at [Patsnap Open Platform](https://open.patsnap.com).
 
 ## Usage Example
 
@@ -46,9 +46,9 @@ Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 ## Related Links
 
 - Official MCP page: [https://open.patsnap.com/marketplace/mcp-servers/patent-visual](https://open.patsnap.com/marketplace/mcp-servers/patent-visual)
-- PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
-- PatSnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
-- Source repository: [https://github.com/patsnap/mcp-for-patent-literature](https://github.com/patsnap/mcp-for-patent-literature)
+- Patsnap: [https://www.patsnap.com](https://www.patsnap.com)
+- Patsnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
+- Source repository: [https://github.com/patsnap/mcp](https://github.com/patsnap/mcp)
 
 ## License
 
@@ -56,4 +56,4 @@ Apache License 2.0 (see [../../LICENSE](../../LICENSE))
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
+Powered by [Patsnap](https://www.patsnap.com). Innovate with Confidence.
