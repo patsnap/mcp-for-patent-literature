@@ -1,0 +1,44 @@
+name: Catalog quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate MCP catalog metadata
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        shell: bash
+        run: |
+          set -euo pipefail
+          find . -name glama.json -print0 | xargs -0 -r -n1 jq empty
+          find . -name package.json -print0 | xargs -0 -r -n1 jq empty
+
+      - name: Validate MCP package metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r -d '' package; do
+            jq -e '
+              (.name | type == "string" and length > 0) and
+              (.version | type == "string" and length > 0) and
+              (.description | type == "string" and length > 20)
+            ' "$package" > /dev/null
+          done < <(find . -name package.json -print0)
+
+      - name: Verify catalog essentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f LICENSE
+          test -f glama.json
